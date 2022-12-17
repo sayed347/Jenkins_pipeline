@@ -16,7 +16,7 @@ public class App
           sleep(400);
           System.out.print( "Ahh " );
           sleep(400);
-          System.out.println( "Staying alive 2 !" );
+          System.out.println( "Staying alive 3 !" );
           System.out.println();
           System.out.println();
           System.out.println();
