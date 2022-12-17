@@ -18,7 +18,7 @@ pipeline{
         }
         stage('Build the docker image') { 
             steps{
-                sh "docker build -t 23570511/sayedtriangle:latest "
+                sh "docker build -t 23570511/sayedtriangle:latest ."
             }
         }
          stage('Push the docker image') {
